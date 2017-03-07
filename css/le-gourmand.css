@@ -1,0 +1,335 @@
+/* CSS DES COLONNES */
+
+.col-lg-12 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-11 {
+    width: 91.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-10 {
+    width: 83.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-9 {
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-8 {
+    width: 66.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-7 {
+    width: 58.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-6 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-5 {
+    width: 41.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-4 {
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-3 {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-2 {
+    width: 16.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-lg-1 {
+    width: 8.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* CSS GENERAL */
+body{
+    font-family: 'Lato','sans-serif';
+    color: #666666; 
+}
+.dancing-police{
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    color: #cc0000;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+h2:after{
+    content: url('/img/Resto-Gourmand-deco.png');
+    display: block;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    height:137px;
+}
+/* CSS HEADER */
+
+.bandeau-gris{
+    background-color: #5b6570;
+    color: white;
+}
+#bandeau-gris-header
+{
+    height: 48px;
+}
+.bandeau-rouge{
+    height: 90px;
+    background-color: #cc0000;
+}
+.header-pad-top{
+    padding-top: 15px;
+}
+#legourmand{
+   font-family: 'Dancing Script', cursive;
+    font-size: 72px;
+}
+#searchbar{
+    border-radius: 15px;
+    height: 26px;
+    font-size: 15px;
+    background-color: lightgray;
+}
+.social{
+    font-size: larger;
+    margin-right: 10px;
+}
+.social:hover{
+    cursor: pointer;
+    color: #cc0000;
+}
+.btn-header{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 30px;
+}
+#navbar{
+    padding-top:3%;
+}
+#banniere-img{
+    background-size: cover;
+    position: relative;
+    background: url('/img/food-salad-restaurant-person.jpg') no-repeat center;
+    height: 500px;
+}
+.banniere-texte{
+    color:white;
+    text-align:center;
+    font-size: xx-large;
+}
+#inner-ban{
+    padding-top: 10%;
+}
+.margin-b{
+    margin-bottom: 25px;
+}
+
+/* CSS SECTIONS */
+.section-bcknd{
+    background:url('/img/motif.png') repeat; 
+}
+.margin-sections{
+    margin-bottom: 50px;
+}
+.center-text-logos{
+    text-align: center;
+}
+.red-circle-icons
+{
+    border-radius: 50%;
+    border-width: 2px;
+    border-color:  #cc0000;
+    border-style: solid;
+    width: 88px;
+    height: 88px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 15px;
+}
+.logos-icons
+{
+    font-size: 40px;
+    color: #cc0000;
+    line-height: 42px;
+    text-align: center;
+}
+.hover-img{
+    position: relative;
+}
+
+.hover-img:hover{
+    opacity: 0.2;
+    cursor: pointer;
+}
+.hover-zoom{
+    position: absolute;
+    font-size: 50px;
+    color: #cc0000;
+    margin-left: 105px;
+    top:100px;
+    visibility: hidden;
+    
+}
+.hover-img:hover .hover-zoom {
+    visibility: visible!important;
+}
+.border-bot-table{
+    border-bottom-width: 3px;
+    border-bottom-color:  #e6e6e6;
+    border-bottom-style: solid; 
+}
+.font-grey-table{
+    background-color:  rgba(40, 40, 40, 0.3);
+    color: white;
+}
+.padding-td-table{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sub-categ-title{
+    color:#5b6570;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-align-td{
+    text-align: center;
+    
+}
+.text-align-middle{
+    vertical-align: middle;
+}
+.height-line-tab{
+    height: 79px;
+}
+#title-tab{
+    font-size: 20px;
+    font-weight: 400;
+}
+#tab-div-btn{
+    text-align: right;
+}
+#margin-btn-download{
+    margin-right: 30px;
+}
+/*CSS BOUTONS*/
+
+.btn-full-red{
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width:171px;
+    font-size: medium;
+}
+.btn-full-red:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:#cc0000;
+}
+.btn-white-red{
+    background-color: white;
+    border: 2px solid #cc0000;
+    color: #cc0000;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width:auto;
+    font-size: medium;
+}
+.btn-white-red:hover{
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+    color: white;
+}
+.btn-full-grey{
+    background-color: #5b6570;
+    border: 2px solid #5b6570;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width:auto;
+    font-size: medium;
+}
+.btn-full-grey:hover{
+    background-color: white;
+    border: 2px solid #5b6570;
+    color:#5b6570;
+}
+#btn-resa{
+    margin-left: 10%;
+}
+/* CSS DU FOOTER */
+
+#footer{
+    height:247px;
+}
+#inner-footer{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.footer-link:hover{
+    color:#cc0000;
+}
+#inner-footer-2{
+    text-align: center;
+}
+.margin-b-footer
+{
+    margin-bottom: 20px;
+}
+.text-justify{
+    text-align: justify;
+}
+
+

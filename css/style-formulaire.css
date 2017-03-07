@@ -1,0 +1,174 @@
+
+/*CSS MISE EN FORME GENERALE*/
+body{
+    font-family: 'Lato','sans-serif';
+    color: #666666; 
+}
+form{
+    box-sizing: border-box;
+}
+.corps{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* CSS BLOC GRIS - LABEL - INPUT - ICONS*/
+.flex-bloc
+{
+    display: flex;
+    justify-content: space-between;
+}
+.dib{
+    display: inline-block;
+}
+.grey-bloc{
+    border-radius: 5px;
+    background-color:  rgba(167, 167, 167, 0.2);
+    border-style: none;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formline{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 30px;
+    width: 100%;
+}
+label{
+    font-size: 16px;
+    text-align: left; 
+    width: 15%;
+    display: inline-block;
+    font-weight: bold;
+}
+[type="text"], textarea{
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #b4bcc2;
+    height: 34px;
+    font-family: 'Lato','sans-serif';
+    font-size: larger;
+    padding-left: 1%;
+    width: 83%;
+    display: inline-block;
+}
+select{
+    font-family: 'Lato','sans-serif';
+    font-size: larger; 
+    color: grey;
+}
+
+.info-icons{
+    color: orange;
+    font-size: x-large;
+    display: block;
+    text-align: right;
+    margin-bottom: 1%;
+}
+#icons-to-replace
+{
+    margin-right: 12px;
+}
+
+/* CSS DES BOUTONS DU FORMULAIRE*/
+
+#btn-details{
+    display: block;
+    text-align: left;
+}
+#btn-submit{
+    display: block;
+    text-align: right;
+}
+.white-button{
+    background-color: white;
+    border: 3px solid orange;
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.white-button:hover{
+    background-color: orange;
+    border: 3px solid orange;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+.yellowButton{
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.yellowButton:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* CSS HEADER DU FORMULAIRE LOGO + TITRE*/
+#form-header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+#title-form-bloc{
+    width: 80%;
+    padding-top: 5%;
+}
+.title-form{
+    border-bottom-style: solid !important;
+    border-bottom-color: orange !important;
+    border-bottom: 3px;
+    font-size: xx-large;
+}
+
+/* CSS SPECIFIQUE AUX DIFFERENTES PARTIES DU FORMULAIRE*/
+#secondPart{
+    width: 40%;
+    margin-right: 30px;
+}
+#label-type-objet{
+    width:40%;
+}
+#select-type-objet{
+    width:55%;
+}
+#thirdPart{
+    width: 60%;
+}
+#label-taille-objet{
+    width: 40%;
+}
+.radio-group{
+    width: 70%;
+}
+.radio-label{
+    display: inline-block;
+}

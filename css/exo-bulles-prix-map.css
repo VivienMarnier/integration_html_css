@@ -1,0 +1,40 @@
+.degrade {
+background-image:linear-gradient(to right, #658ba2, white); 
+}
+.degrade2{
+    background: rgba(101,139,162,1);
+    background: -moz-linear-gradient(left, rgba(101,139,162,1) 0%, rgba(101,139,162,1) 55%, rgba(247,249,250,1) 55%, rgba(247,249,250,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,139,162,1)), color-stop(55%, rgba(101,139,162,1)), color-stop(55%, rgba(247,249,250,1)), color-stop(100%, rgba(247,249,250,1)));
+    background: -webkit-linear-gradient(left, rgba(101,139,162,1) 0%, rgba(101,139,162,1) 55%, rgba(247,249,250,1) 55%, rgba(247,249,250,1) 100%);
+    background: -o-linear-gradient(left, rgba(101,139,162,1) 0%, rgba(101,139,162,1) 55%, rgba(247,249,250,1) 55%, rgba(247,249,250,1) 100%);
+    background: -ms-linear-gradient(left, rgba(101,139,162,1) 0%, rgba(101,139,162,1) 55%, rgba(247,249,250,1) 55%, rgba(247,249,250,1) 100%);
+    background: linear-gradient(to right, rgba(101,139,162,1) 0%, rgba(101,139,162,1) 55%, rgba(247,249,250,1) 55%, rgba(247,249,250,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#658ba2', endColorstr='#f7f9fa', GradientType=1 );
+}
+.banniere{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bulle{
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    border-radius: 5px;
+    width: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.bulle:before{
+    content: url('/img/pointe.jpg');
+    position: absolute;
+    bottom: 0;
+    height: 0;
+}
+
+.sup{
+    vertical-align: super; font-size: 50%;
+}

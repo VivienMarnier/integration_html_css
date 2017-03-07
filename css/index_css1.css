@@ -1,0 +1,228 @@
+
+body{
+    color:grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    width: 1170px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+#navbar{
+    width: 40%;
+}
+#slogan{
+    width:30%;
+    vertical-align: middle;
+}
+#empty-nav-bloc{
+    width:20%;
+}
+#city-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+#city-block figcaption{
+    text-align: center;
+    font-size: 25px;
+}
+.bandeau{
+    position: absolute;  
+}
+.link{
+    color:grey;
+    text-decoration: none;
+}
+.corps{
+    width: 1170px;
+    margin: auto;
+}
+.inline{
+    display: inline-block;
+}
+#logo-bloc{
+    width: 10%;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+        
+}
+.city{
+    width: 300px;
+    height: 300px;
+}
+ul{
+   color:orange;
+}
+ul span{
+  color:grey;  
+}
+.separator{
+    color: lightgray;
+}
+.right-hand{
+    color: orange;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.white-button-banner{
+    display: block;
+    background-color: white;
+    border-style: solid;
+    border-color: orange;
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 150px;
+}
+.white-button{
+    display: block;
+    background-color: white;
+    border-style: solid;
+    border-color: orange;
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 60%;
+    margin-right: auto;
+}
+.white-button:hover{
+    display: block;
+    background-color: orange;
+    border-style: solid;
+    border-color: orange;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    width: 60%;
+    margin-right: auto;
+}
+.yellowButton{
+    display: block;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yellowButton:hover{
+    display: block;
+    background-color: white;
+    color: orange;
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.double-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.column-block{
+    display: flex;
+    justify-content: space-between;
+}
+.subdiv{
+    width: 40%;
+}
+.leftcolumn{
+    margin-right: 90%;
+}
+.subcolumn{
+    width: 50%;
+}
+.colum-icons{
+    margin-left: 35%;
+}
+#secondSection{
+    margin-top: 80px;
+}
+.subcateg1{
+    font-size: 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.subcateg{
+    color: orange;
+    font-size: 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+#temoignages div{
+    width: 40%;
+    height: auto;
+}
+#imgtemoi{
+    width: 450px;
+    height: 300px;
+}
+#imgfonc{
+    width: 400px;
+    height: 400px;
+}
+.punderline{
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 150px;
+}
+.icons{
+    color:orange;
+    font-size: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.icons-arrows{
+    color: orange;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+#footer ul{
+    list-style-type: none;
+    font-size: 13px;
+    color: grey;
+}
+#footer img{
+    width: 200px;
+    height: 70px;
+}

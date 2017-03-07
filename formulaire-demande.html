@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="livraison-eco-responsable">
+    <title>Demande de transport</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-formulaire.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body class="corps">
+    
+    <!--bloc header logo + titre du formulaire        -->
+    
+    <div id='form-header' class="flex-bloc">
+        <figure>
+            <img alt="Logo livraison-éco" title="Livraison éco responsable" src="img/logo-form.PNG">
+        </figure>
+        <div id="title-form-bloc">
+            <h1 class="title-form">Demande de transport</h1>
+        </div>
+    </div>
+    <form>
+        
+        <!--bloc première partie du formulaire        -->
+        
+        <fieldset id="firstPart" class="grey-bloc">
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label for="objet-transporter">Objet à transporter *</label><input id="objet-transporter" type="text" placeholder="Indiquez l'objet à transporter">
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label for="origine">Origine *</label>
+                <input id="origine" type="text" placeholder="Indiquez un lieu">
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label for="arrivee">Arrivée *</label>
+                <input id="arrivee" type="text" placeholder="Indiquez un lieu">    
+            </div>
+            
+        </fieldset>
+        <div class="flex-bloc">
+            
+            <!--bloc deuxième partie du formulaire        -->
+            
+            <fieldset id="secondPart" class="grey-bloc">
+                <div class="formline">
+                    <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                    <label id="label-type-objet">S'agit-il d'un *</label>
+                    <select id="select-type-objet">
+                        <optgroup label="Particularités">
+                            <option value="perso">Objet perso</option>
+                            <option value="acheter">Objet à acheter</option>
+                        </optgroup>
+                        <optgroup label="Couleurs">
+                            <option value="rouge">Rouge</option>
+                            <option value="orange">Orange</option>
+                            <option value="bleuee">Bleue</option>
+                        </optgroup>
+                        <optgroup label="Matière">
+                            <option value="cuir">Cuir</option>
+                            <option value="plastique">Plastique</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <!--bloc troisième partie du formulaire        -->
+            
+            <fieldset id="thirdPart" class="grey-bloc">
+                <div class="formline">
+                    <div id='icons-to-replace'><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                    <label id="label-taille-objet">Taille de l'objet*</label>         
+                    <div class="radio-label"><input checked type="radio" name="taille" value="petit">Petit *</div>
+                    <div class="radio-label"><input type="radio" name="taille" value="moyen">Moyen *</div>
+                    <div class="radio-label"><input type="radio" name="taille" value="large">Large *</div>
+                    <div class="radio-label"><input type="radio" name="taille" value="xlarge">Extra large *</div>
+                </div>
+            </fieldset>
+        </div>
+        
+        <!--bloc quatirème partie du formulaire        -->
+        
+        <fieldset id="fourthPart" class="grey-bloc">
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Récompense</label>
+                <input type="text">
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Pourboire</label>
+                <input type="text">
+            </div>
+        </fieldset>
+        
+        <!--bloc cinquième partie du formulaire        -->
+        
+        <fieldset id="fivePart" class="grey-bloc">
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Photo</label>
+                <input type="text">
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Infos pratiques</label>
+                <textarea></textarea>
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Historique de l'objet</label>
+                <textarea></textarea>
+            </div>
+            <div class="formline">
+                <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>URL</label>
+                <input type="text">
+            </div>
+             <div class="formline">
+                 <div><i title="Infos" class="fa fa-info-circle info-icons" aria-hidden="true"></i></div>
+                <label>Valeur de l'objet</label>
+                <input type="text">
+            </div>
+        </fieldset>
+        
+        <!--bloc boutons submit        -->
+        
+        <fieldset>
+            <div id="btn-details"><a class="white-button" href="#">Ajouter des détails</a></div>
+            <div id="btn-submit"><input class="yellowButton" type="submit" value="Publier la demande"></div>
+        </fieldset>
+    </form>
+</body>
+</html>
